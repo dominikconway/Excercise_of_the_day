@@ -16,6 +16,8 @@
     color: white;
     font-family: Spectral;
     font-size: 26px;
+    outline-style: inset;
+    background-color: black;
 }
 
 #button {
@@ -90,6 +92,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-color: black;
+    margin: 15%
     
 
 }

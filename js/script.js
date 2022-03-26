@@ -1,5 +1,6 @@
 //Exercise of the day api app
 // target , name,gifurl
+
 const settings = {
 	"async": true,
 	"crossDomain": true,
@@ -14,14 +15,15 @@ const settings = {
 $.ajax(settings).done(function (response) {
 	//console.log(response);
     const $button = $('button').on('click', () => {
-
+      clearimage()
+      
       let randomNameIndex = Math.floor(Math.random() * response[250].name.length)
       let selectedExcercise = response[randomNameIndex]
       //console.log(selectedExcercise)
 
         const $gif = $('<img id="eotd">')
         $gif.attr('src', selectedExcercise.gifUrl) 
-        $gif.attr('alt', selectedExcercise.title)
+        $gif.attr('alt', selectedExcercise.name)
         $gif.appendTo('.image-container')
 
 
@@ -49,4 +51,13 @@ const settingss = {
 
     $('#motivationalQuote').html(`"${selectedQuote.text}" - ${selectedQuote.author}`)
     //generate randomly w/o button click
+    
   });
+
+  function clearimage() {
+    $('.image-container').html('')
+  }
+ 
+
+
+ 
