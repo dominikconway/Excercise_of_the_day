@@ -19,8 +19,7 @@
     color: white;
     font-family: Spectral;
     font-size: 26px;
-    outline-style: inset;
-    background-color: black;;
+    background-color: rgba(000,000,000,.5);
 }
 #quoteDiv {
     display: flex;
@@ -61,8 +60,10 @@
 .image-data {
     margin: auto;
     color: white;
+    background-color: rgba(000,000,000,.5);
     font-family: Spectral;
     font-size: 30px;
+    width: 44%;
 }
 
 #button::after {

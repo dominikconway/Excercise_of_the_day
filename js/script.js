@@ -16,7 +16,7 @@ $.ajax(settings).done(function (response) {
 	//console.log(response);
     const $button = $('button').on('click', () => {
       clearimage()
-      
+
       let randomNameIndex = Math.floor(Math.random() * response[250].name.length)
       let selectedExcercise = response[randomNameIndex]
       //console.log(selectedExcercise)
@@ -26,9 +26,8 @@ $.ajax(settings).done(function (response) {
         $gif.attr('alt', selectedExcercise.name)
         $gif.appendTo('.image-container')
 
-
-        $('#exerciseName').html(`${selectedExcercise.name}`)
-        $('#muscleWorked').html(`${selectedExcercise.target}`)
+        $('#exerciseName').html(`Excercise: ${selectedExcercise.name}`)
+        $('#muscleWorked').html(`Target Muscle: ${selectedExcercise.target}`)
       //generate randomly w/ button click
     })
   
