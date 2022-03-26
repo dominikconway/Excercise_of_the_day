@@ -12,12 +12,21 @@
 }
 
 #motivationalQuote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     font-family: Spectral;
     font-size: 26px;
     outline-style: inset;
-    background-color: black;
+    background-color: black;;
+}
+#quoteDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #button {
@@ -44,8 +53,7 @@
 .image-container {
     height: 400px;
     padding: 0%;
-    margin: 10px 10px 10px 10px;;
-    /* background-color: black; */
+    margin: 10px 10px 10px 10px;
     display: flex;
     justify-content: center;
 }
@@ -54,6 +62,7 @@
     margin: auto;
     color: white;
     font-family: Spectral;
+    font-size: 30px;
 }
 
 #button::after {
@@ -92,7 +101,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-color: black;
-    margin: 15%
+    margin: 5%
     
 
 }
