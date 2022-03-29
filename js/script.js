@@ -8,7 +8,7 @@ const settings = {
 	"method": "GET",
 	"headers": {
 		"X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-		"X-RapidAPI-Key": "f9eb3c1704msh0695465e449c66dp16e1c1jsnfcccb71d537f"
+		"X-RapidAPI-Key": "bba6bbdcbcmsh3414e21cd0749c9p1c00c3jsna3e0eb2b102d"
 	}
 };
 
