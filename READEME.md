@@ -1,6 +1,6 @@
 # Excercise Of The Day
 ***
-A web application that displays an new randomly generated excercise at the click of a button
+A web application that displays a _**new**_ randomly generated excercise at the click of a button
 
 ## Technologies used
 ***
@@ -16,7 +16,7 @@ A web application that displays an new randomly generated excercise at the click
 ### On App load
 ![Opening of the app](https://i.imgur.com/yMaSF9U.png)
 
-### Afer pressing *"Get Swole"*
+### After pressing *"Get Swole"* button
 ![After the press of the button](https://i.imgur.com/LGNXW9I.png)
 
 # Getting Started
@@ -25,6 +25,9 @@ A web application that displays an new randomly generated excercise at the click
 
 #### Future Enhancements
 ***
+Repetition counter
+timer
+calorie counter
 
 
 

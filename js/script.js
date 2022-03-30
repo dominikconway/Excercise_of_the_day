@@ -17,7 +17,7 @@ $.ajax(settings).done(function (response) {
     const $button = $('button').on('click', () => {
       clearimage()
 
-      let randomNameIndex = Math.floor(Math.random() * response[250].name.length)
+      let randomNameIndex = Math.floor(Math.random() * response[5].name.length)
       let selectedExcercise = response[randomNameIndex]
       //console.log(selectedExcercise)
 
