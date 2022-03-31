@@ -21,13 +21,13 @@ A web application that displays a _**new**_ randomly generated excercise at the 
 
 # Getting Started
 ***
-*<Click-Here>* to see the deployed app!
+[Click Here](https://dominikconway.github.io/Excercise_of_the_day/) to see the deployed app!
 
 #### Future Enhancements
 ***
-Repetition counter
-timer
-calorie counter
+ - Repetition counter
+ - Timer
+ - Calorie counter
 
 
 
